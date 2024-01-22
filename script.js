@@ -1,14 +1,15 @@
 //your JS code here. If required.
- function playSound(audioUrl){
-	 stopSound(); // Stop any currently playing sound
+function playSound(audioUrl){
+    
 
-      audio = new Audio(audioUrl);
-      audio.play();
- }
+    console.log(audioUrl);
+     audio = new Audio(audioUrl);
+     audio.play();
+}
 
 function stopSound() {
-      if (audio) {
-        audio.pause();
-        audio.currentTime = 0;
-      }
-    }
+     
+       audio.pause();
+       audio.currentTime = 0;
+     
+   }
