@@ -1,5 +1,5 @@
 //your JS code here. If required.
- function playSound(audiUrl){
+ function playSound(audioUrl){
 	 stopSound(); // Stop any currently playing sound
 
       audio = new Audio(audioUrl);
